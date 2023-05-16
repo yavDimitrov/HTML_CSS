@@ -1,3 +1,8 @@
 body {
-    background: red;
+    font-size: 20px;
+    background: burlywood;
+}
+
+.box {
+     border: 1px solid salmon;
 }
