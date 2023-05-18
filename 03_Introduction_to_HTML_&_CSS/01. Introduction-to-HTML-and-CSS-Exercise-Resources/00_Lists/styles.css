@@ -3,6 +3,10 @@ body {
     background: burlywood;
 }
 
+p {
+    text-align: center;
+}
+
 .box {
      border: 1px solid salmon;
 }
