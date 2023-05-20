@@ -5,22 +5,27 @@
         <title>HTML Lists</title>
         </head>
     <body>
-        <ol>
-            
+        <ol type="I">
+
            <li>List item 1
-                <ol>
-                    <li> Nested item 1.1</li>
+                <ol type="a">
+                    <li>Nested item 1.1</li>
                     <li>Nested item 1.2</li>
                 </ol>
             </li>
 
             <li>List item 2
-  1. Nested item 2.1
-  2. Nested item 2.2
-    - Nested item 2.2.1
-    - Nested item 2.2.2
-    - Nested item 2.2.3
-  3. Nested item 2.3
+                <ol>
+                    <li>Nested item 2.1</li>
+                    <li>Nested item 2.2
+                        <ul type="disk">
+                            <li>Nested item 2.2.1</li>
+                            <li>Nested item 2.2.2</li>
+                            <li>Nested item 2.2.3</li>
+                        </ul>
+                    </li>
+                    <li> Nested item 2.3</li>
+                </ol>
             </li>
 
             <li>List item 3
