@@ -1,3 +1,31 @@
 body {
-    background-color: red;
+}
+
+.login{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.login label, 
+.login input {
+    display: block;
+}
+
+.login .links a {
+    display: block;
+    padding-bottom: 1em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    border: 1px solid #CCC;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+
+
 }
