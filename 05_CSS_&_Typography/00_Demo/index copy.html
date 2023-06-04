@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="typography.css">
     <style>
-
+        body {
+            border-top: 10px solid red;
+        }
+        /* header h2{
+            border-top: 10px solid rgb(114, 58, 58);
+        } */
+        /* header .fancy{
+            border-top: 10px solid rgb(114, 58, 58);
+        } */
         
+        /* .header.fancy.special {
+                    border-top: 30px solid purple;
+        }
+        
+        #header {
+            border-top: 10px solid rgb(114, 58, 58);
+        } */
+
+        article > header {
+            border-top: 20px solid limegreen;
+            color: brown;
+        }
+        article p:last-of-type {
+            border-top: 20px solid limegreen;
+            color: yellowgreen;
+        }
+        article h2 + p,
+        article h3 + p,
+        article h4 + p,
+        article h5 + p,
+        article h6 + p,
+        article header + p {
+            font-style: italic;
+        }
+
     </style>
 </head>
 <body>

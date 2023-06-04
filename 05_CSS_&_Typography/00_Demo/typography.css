@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* font-size: 14px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    font: normal 14px/1.5 Georgia, 'Times New Roman', Times, serif
+  }
+
+  body, table, form {
+    font: inherit;
+  }
