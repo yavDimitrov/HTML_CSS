@@ -8,9 +8,27 @@ html {
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif; */
 
-    font: normal 14px/1.5 Georgia, 'Times New Roman', Times, serif
+    font: normal 14px/1.5 verdana, Arial, sans-serif
   }
 
   body, table, form {
     font: inherit;
   }
+
+  p {
+    padding-bottom: 1.5em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+    padding-top: 0.6em;
+  }
+
+  h1 { font-size: 2.8em;}
+  h2 { font-size: 2.3em;}
+  h3 { font-size: 1.9em;}
+  h4 { font-size: 1.5em;}
+  h5 { font-size: 1.2em;}
+  h6 { font-size: 1em;}
