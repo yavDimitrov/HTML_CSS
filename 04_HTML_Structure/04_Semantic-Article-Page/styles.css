@@ -1,0 +1,16 @@
+body {
+    color: red;
+    background-color: #e4e978;
+
+}
+
+article {
+    background-color: #f2f4c0;
+    border: #b2ad7d;
+}
+
+section article {
+    font-style: italic;
+    color: #5c6e91;
+    background-color:  #4c7658; ;
+}
