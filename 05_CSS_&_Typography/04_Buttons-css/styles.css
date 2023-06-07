@@ -1,5 +1,5 @@
 
-body {
+body, button {
     font: 12px/1.5 Verdana, sans-serif;
 }
 
@@ -14,4 +14,10 @@ body {
     font-size: 12 px;
     padding: 1em 2em;
     border-radius: 2em;
+}
+
+.button.fill {
+    background-color: #000;
+    color: #fff;
+
 }
