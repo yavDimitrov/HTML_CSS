@@ -1,16 +1,18 @@
 body {
-    color: red;
     background-color: #e4e978;
 
 }
 
 article {
+    width: 700px;
+    padding: 5px 15px;
     background-color: #f2f4c0;
     border: #b2ad7d;
+    margin: 15px 10px;
+    
 }
 
 section article {
     font-style: italic;
     color: #5c6e91;
-    background-color:  #4c7658; ;
 }
