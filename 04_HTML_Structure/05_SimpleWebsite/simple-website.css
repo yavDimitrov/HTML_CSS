@@ -48,6 +48,10 @@ nav a {
 
 footer {
     background-color: #444;
+
+}
+
+footer p {
     color: #fff;
     text-align: center;
     padding: 10px;
