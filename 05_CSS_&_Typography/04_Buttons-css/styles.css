@@ -16,8 +16,16 @@ body, button {
     border-radius: 2em;
 }
 
+.button:hover {
+    background-color: #eee;
+}
+
 .button.fill {
     background-color: #000;
     color: #fff;
 
+}
+
+.button.fill:hover {
+    background-color: #090;
 }
