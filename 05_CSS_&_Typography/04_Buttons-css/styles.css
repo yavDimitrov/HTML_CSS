@@ -1,3 +1,4 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
 
 body, button {
     font: 12px/1.5 Verdana, sans-serif;
@@ -23,9 +24,14 @@ body, button {
 .button.fill {
     background-color: #000;
     color: #fff;
+    border: none;
 
 }
 
 .button.fill:hover {
-    background-color: #090;
+    background-color: rgb(0, 102, 0);
+}
+
+.lazy-css-icon::before {
+    content: '\9729';
 }
