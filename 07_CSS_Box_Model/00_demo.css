@@ -1,0 +1,58 @@
+*, *::before , *::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px/1.5 "Lucida Grande", Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    line-height: 1.1;
+}
+
+h1 { font-size: 3em;}
+h2 { font-size: 2.2em;}
+h3 { font-size: 1.8em;}
+h4 { font-size: 1.4em;}
+h5 { font-size: 1.2em;}
+h6 { font-size: 1em;}
+
+h2 span {
+    font-style: italic;
+}
+
+img.align-right {
+    float: right;
+    padding: 1em 0 1em 1em 1em;
+}
+img.align-left {
+    float: left;
+    padding: 0 1em 1em 1em 1em;
+}
+
+p::after {
+    display: block;
+    content: ''
+    clear: both;
+}
+
+.inline-block span{
+    background: #ccc;
+    padding-block: 1em;
+    display: inline-block;
+}
+
+.box {
+    border: 2px solid red;
+    background: blue;
+    padding: 2em 2em 2em 2em;
+    margin: 2em;
+
+    /* padding: top right bottom left */
+    /* padding: [top & bottom] [left & right] */
+    /* padding-block: [top & bottom] */
+    /* padding-inline: [left & right] */
+}
