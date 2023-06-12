@@ -5,6 +5,11 @@
 
 body {
     font: 16px/1.5 "Lucida Grande", Verdana, sans-serif;
+    padding: 4em;
+}
+
+p, ul , ol, code {
+    padding-bottom: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,9 +55,16 @@ p::after {
     background: blue;
     padding: 2em 2em 2em 2em;
     margin: 2em;
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    /* overflow: hidden;
+    overflow: auto;
+    overflow: visible; */
 
     /* padding: top right bottom left */
     /* padding: [top & bottom] [left & right] */
     /* padding-block: [top & bottom] */
     /* padding-inline: [left & right] */
 }
+
