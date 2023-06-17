@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 *{
     padding: 0;
@@ -32,6 +32,11 @@ p {
 .container header {
     text-align: center;
     padding: 20px 0 5px;
+}
+
+.container header h2 {
+   font-weight: 500;
+
 }
 
 .container header h2 span{
