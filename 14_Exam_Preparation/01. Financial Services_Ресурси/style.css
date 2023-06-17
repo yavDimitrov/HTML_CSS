@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -10,6 +12,15 @@
 
 html {
     box-sizing: border-box;
+    font:12px/1.5 'Poppins', sans-serif;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    padding-bottom: 10px;
 }
 
 .container {
@@ -20,9 +31,12 @@ html {
 
 .container header {
     text-align: center;
+    padding: 20px 0 5px;
 }
 
-.container header h2 {
+.container header h2 span{
+    color: rgba(67, 131, 198, 1);
+    ;
 
 }
 
@@ -46,4 +60,21 @@ html {
     display: block;
     width: 100%;
     border-radius: 12px;
+}
+
+.card .content {
+    padding: 15px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #327DC4;
+    color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1;
+    border: 1px solid rgba(50,60,196,1);
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.51);
 }
