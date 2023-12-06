@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" >
+    <script src="https://kit.fontawesome.com/32d5fb1f7f.js" crossorigin="anonymous"></script>
+    <title>Fitness Site</title>
+</head>
+
+<body>
+     <div class="container">
+
+            <header class="nav-header">
+                <div class="nav-top">
+                    <p class="nav-phone">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span class="phone-span">1-800-235-658</span>
+                    </p>
+                    <p class="nav-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="address-span">Bulgaria, Mladost 1, bl.105</span>
+                    </p>
+                    <ul class="nav-socials">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                
+                    <nav class="nav-links">
+                        <ul class="links">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">MEMBERSHIP</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+            </header> 
+
+            <div class="content">
+                <h2>NO PAIN NO GAIN</h2>
+                <p>Nice-looking body and powerful organism are interconnected and we can help you with both.</p>
+                <a href="#">GET STARTED</a>
+            </div>
+
+            <section class="welcome-section">
+                <header class="welcome-header">
+                    <h3>Welcome</h3>
+                </header>
+                
+                <div class="welcome-div">
+                    <div class="gym-card">
+                        <img src="image/multiple-users-silhouette.png" alt="">
+                        <p class="gym-text">Qualified Coaches</p>
+                        <p class="gym-info">Our coaches have years of experience in various types of fitness and sports.</p>
+                    </div>
+
+                    <div class="gym-card">
+                        <img src="image/thumbs-up-hand-symbol.png" alt="">
+                        <p class="gym-text">Individual Approach</p>
+                        <p class="gym-info">Every client of GYM has a personalized program of training and nutrition.</p>
+                    </div>
+
+                    <div class="gym-card">
+                        <img src="image/dumbbell.png" alt="">
+                        <p class="gym-text">Fitness Equipment</p>
+                        <p class="gym-info">We cooperate with leading fitness equipment suppliers to give you the superior results.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="coach-section">
+                <header>
+                    <h3>Coaches</h3>
+                </header>
+
+                    <div class="coaches-div">
+                        <div class="coaches-row">
+                            <img src="image/perkins.jpg" alt="">
+                                <div class="coach-card">
+                                    <p class="coach-name">Pepa Perkins</p>
+                                    <p class="coach-training">Fitness</p>
+                                    <p class="coach-info">Emily can teach you all peculiarities of fitness and aerobics in a group or individually.</p>
+                                </div>
+                        </div>
+
+                        <div class="coaches-row">
+                            <img src="image/minela.jpg" alt="">
+                                <div class="coach-card">
+                                    <p class="coach-name">Samantha Minela</p>
+                                    <p class="coach-training">Yoga</p>
+                                    <p class="coach-info">Our leading yoga coach, Semantha will help you reach full harmony with your body.</p>
+                                </div>
+                        </div>
+
+                        <div class="coaches-row">
+                            <img src="image/ortiz.jpg" alt="">
+                                <div class="coach-card">
+                                    <p class="coach-name">Austin Ortiz</p>
+                                    <p class="coach-training">Bodybuilding</p>
+                                    <p class="coach-info">Austin is not only our most called-for coach, but also a winner of many championships.</p>
+                                </div>
+                        </div>
+
+                    </div>
+            </section>
+
+            <footer class="container-footer">
+                <p class="footer-text">All rights reserved. In Partnership with SoftUni.</p>
+            </footer>
+     </div>
+
+</body>
+
+</html>
